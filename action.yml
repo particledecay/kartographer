@@ -1,0 +1,15 @@
+---
+name: Package Helm chart
+description: Package a helm chart directory and optionally push it to a repository
+author: Joey Espinosa <@particledecay>
+inputs:
+  repo_url:
+    description: URL to the chart repository
+    required: true
+  repo_type:
+    description: The type of repository
+    required: false
+    default: "artifactory"
+  token:
+    description: Token used for authenticating connection to repository
+    required: false

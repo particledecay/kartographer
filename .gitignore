@@ -1,0 +1,14 @@
+/bin/
+/build.out
+/test.out
+debug.test
+/vendor/
+/.vscode
+*.coverprofile
+*.orig
+*.out
+*.rej
+*.so
+*.swp
+*~
+core
